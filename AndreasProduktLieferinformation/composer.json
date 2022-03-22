@@ -1,0 +1,31 @@
+{
+    "name": "andreas/produkt-lieferinformation",
+    "description": "Description for the plugin AndreasProduktLieferinformation",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.4.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "Andreas\\ProduktLieferinformation\\AndreasProduktLieferinformation",
+        "label": {
+            "de-DE": "Produkt Lieferinformation",
+            "en-GB": "Product Delivery Information"
+        },
+        "description": {
+            "de-DE": "Zeigt die Versandinformationen auf der Produktseite an",
+            "en-GB": "Displays delivery information on the product page"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Andreas\\ProduktLieferinformation\\": "src/"
+        }
+    }
+}

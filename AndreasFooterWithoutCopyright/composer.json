@@ -1,0 +1,31 @@
+{
+    "name": "andreas/footer-without-copyright",
+    "description": "Removing copyright from the footer",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.4.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "Andreas\\FooterWithoutCopyright\\AndreasFooterWithoutCopyright",
+        "label": {
+            "de-DE": "No copyright",
+            "en-GB": "Kein Copyright"
+        },
+        "description": {
+            "de-DE": "Removing copyright from the footer",
+            "en-GB": "Entfernen des Copyrights aus dem Footer"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Andreas\\FooterWithoutCopyright\\": "src/"
+        }
+    }
+}
